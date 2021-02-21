@@ -1,0 +1,57 @@
+*
+{ 
+ padding:0;
+ margin:0;
+ 
+}
+body 
+{ 
+   background-image: url(background2.jpg);
+   background-size: cover;
+   background-position:center;
+   font-family: sans-serif;
+  
+}
+.Dhan and Nawka {
+   width: 320px;
+   height: 420px;
+   top: 50%;
+   left: 50%;
+    position: absolute ;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   padding: 100px 80px;
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px; 
+  text-align: left;
+  font-size: 22px;
+ 
+}
+h2{
+  margin: 0;
+  padding: 0 0 20px; 
+  text-align:left;
+  font-size: 22px;
+}
+
+
+.Dhan and Nawka input[type="vote"]
+{
+ border: none;
+ outline: none;
+ height: 40px;
+ background: #fb2525;
+ color: #fff;
+ font-size: 18px;
+ border-radius: 20px;
+  position:center;
+}
+.Dhan and Nawka input[type="vote"]:hover
+{
+ cursor:pointer;
+ background: #ffc107;
+ color: #fff;
+}
+
